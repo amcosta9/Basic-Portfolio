@@ -2,17 +2,11 @@ h1 {
 	background-color: #4aaaa5;
 	font-family: "Georgia", Times, "Times New Roman", serif;
 	color: #ffffff;
-	border: 1px solid #cccccc;
-	padding-top: 25px;
-	padding-right: 25px;
-	padding-left: 25px; 
-	padding-bottom: 25px;
-	margin-right: 900px;
-	margin-left: 138px;
+	
 }
 
 body {
-	background-image: url("assets/images/background.png");
+	background: url(../images/background.png);
 	color: #777777;
 	background-color: #ffffff;
 	font-family: "Arial", "Helvetica Neue", Helvetica, sans-serif;
@@ -29,15 +23,37 @@ h4 {
 	font-family: "Georgia", Times, "Times New Roman", serif;
 }
 
-.header {
+header {
+	width: 100%;
+	height: 90px;
+}
+
+.name {
 	background-color: #ffffff;
-	display: inline-block;
-	margin: 0;
+	border: #cccccc;
+	position: relative;
+	float: left;
+	line-height: 6em;
+	padding-left: 25px;
+	width: 45%;
+}
+
+.links {
+	float: left;
+	padding-right: 25px;
+	padding-bottom: 50px;
+	position: relative;
+}
+
+div {
+	clear: both;
 }
 
 .profile {
+	clear: both;
 	float: left;
 	margin: 0px 10px 10px 10px;
+	width: 50%;
 }
 
 .foliolinks {
@@ -46,16 +62,41 @@ h4 {
 	border: 1px solid #cccccc;
 }
 
-.links {
-	display: inline;
+
+
+.container {
+	width: 650px;
+	float: left;
 }
 
-/* sticky footer not working - fix this! */
-.wrapper {
+.connect {
+	width: 270px;
+	float: right;
+}
+
+
+
+* {
+	margin: 0;
+}
+html, body {
+	height: 100%;
+}
+
+.content {
 	min-height: 100%;
+	height: auto !important;
 	margin: 0 auto -80px;
+}
+
+.footer {
+	width: 960px;
+	background-color: #666666;
+	color: #ffffff;
 }
 
 .footer, .push {
 	height: 80px;
 }
+
+WHYYYY */
