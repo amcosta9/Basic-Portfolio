@@ -70,7 +70,7 @@ div {
 	clear: both;
 	float: left;
 	margin: 0px 10px 10px 10px;
-	width: 50%;
+	width: 150px;
 }
 
 .foliolinks {
@@ -93,6 +93,8 @@ div {
 .connect {
 	width: 270px;
 	float: right;
+	background-color: #ffffff;
+    border: solid 2px #cccccc;
 }
 
 
@@ -120,5 +122,3 @@ html, body {
 .footer, .push {
 	height: 80px;
 }
-
-WHYYYY */
