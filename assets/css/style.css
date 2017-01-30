@@ -14,6 +14,7 @@ body {
 	border-color: #dddddd;
 }
 
+/*something to do with these two elements' width causing header not to stretch*/
 header {
 	background-color: #ffffff;
 	border-bottom-color: #cccccc;
@@ -30,6 +31,7 @@ header {
 	padding-left: 75px;
 }
 
+/*heading - Ariel M. Costa*/
 .name {
 	background-color: #4aaaa5;
 	border: #cccccc;
@@ -40,6 +42,7 @@ header {
 	text-align: center;
 }
 
+/*navbar links*/
 .links {
 	position: relative;
 	bottom: 44px;
@@ -47,6 +50,7 @@ header {
 	width: 350px;
 }
 
+/*navbar links*/
 ul {
 	list-style-type: none;
 	margin: 0;
@@ -87,6 +91,7 @@ div {
 	clear: both;
 }
 
+/*profile picture*/
 .profile {
 	clear: both;
 	float: left;
@@ -94,18 +99,20 @@ div {
 	width: 150px;
 }
 
-
+/*links to portfolio projects*/
 .foliolinks {
 	display: inline-block;
 	margin: 10px;
 	border: 1px solid #cccccc;
 }
 
+/*placeholder portfolio pictures*/
 .foliopic {
 	width: 268px; 
 	height: 174px
 }
 
+/*portfolio project name*/
 .project {
 	font-family: "Georgia", Times, "Times New Roman", serif;
 	background-color: #4aaaa5;
@@ -117,6 +124,7 @@ div {
 	margin-bottom: -65px;
 }
 
+/*surrounds about me section*/
 .container {
 	background-color: #ffffff;
 	padding: 30px;
@@ -126,6 +134,7 @@ div {
 	margin-top: 30px;
 }
 
+/*connect with me section*/
 /*is there a way to center images in a div?*/
 .connect {
 	width: 171px;
@@ -135,12 +144,14 @@ div {
     padding: 30px;
 }
 
+/*connect section on index page - these broken out to set specific positions- is this the best way?*/
 #indexconnect {
     position: relative;
     bottom: 346px;
     right: 30px;
 }
 
+/*connect section contact page*/
 /*this is slightly lower than the other pages, but less than 1px?*/
 #contactconnect {
 	position: relative;
@@ -148,24 +159,31 @@ div {
     right: 30px;
 }
 
+/*connect section portfolio page*/
 #portfolioconnect {
 	position: relative;
     bottom: 795px;
     right: 30px;
 }
 
+/*connect with me logo images*/
 .thumbnail {
 	width: 50px; 
 	height: 50px;
 }
 
+/*contact me form*/
 input, textarea {
 	font-family: "Arial", "Helvetica Neue", Helvetica, sans-serif;
 	color: #4aaaa5;
 }
 
+
+
+/*footer css*/
 /*DANGER - copied some of this css for sticky footer and don't know exactly what it does*/
-/*sticky footer isn't working*/
+/*is sticky footer working?*/
+/*what does this star do?*/
 * {
 	margin: 0;
 }
@@ -173,6 +191,7 @@ html, body {
 	height: 100%;
 }
 
+/*content div surrounds all content except footer*/
 .content {
 	width: 960px;
 	min-height: 100%;
