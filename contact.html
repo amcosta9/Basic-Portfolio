@@ -6,14 +6,27 @@
 	</head>
 
 	<body>
-		<div class="wrapper">
-			<h1>Ariel M Costa</h1>
-			<!-- links to other pages here ??-->
-				<a href="index.html">About</a> | 
-				<a href="portfolio.html">Portfolio</a> | 
-				<a href="contact.html">Contact</a>
-				<hr>
+		<div class="content">
+			<!--header-->
+			<header>
+				<div class="topbar">
+					<div class="name">
+						<h1>Ariel M Costa</h1>
+					</div> <!--end name div-->
+					<div class="links">
+						<ul>
+							<li><a href="index.html">About</a></li>
+							<li>   |   </li>
+							<li><a href="portfolio.html">Portfolio</a></li>
+							<li>   |   </li>
+							<li><a href="contact.html">Contact</a></li>
+						</ul>
+					</div> <!--end links div-->
+				</div> <!--end topbar div-->
+			</header>
 
+
+			<div class="container">
 			<h2>Contact</h2>
 			<hr>
 
@@ -28,18 +41,24 @@
 				<br>
 				<input type="submit" name="submit">
 			</form>
+			</div>
 
-			<h4>Connect with Me</h4>
+
+		<!--connect positioning rel to parent?-->
+		<!--may need specific div classes for each page?-->
+		<div class="connect">
+			<h3>Connect with Me</h3>
 				<hr>
 				<a href="https://www.linkedin.com/in/arielmcosta" target="_blank"><img src="assets/images/linkedin_icon.png" alt="LinkedIn Icon" style="width: 50px; height: 50px;"></a>
 
 				<a href="https://github.com/amcosta9" target="_blank"><img src="assets/images/github_icon.png" alt="Github Icon" style="width: 50px; height: 50px;"></a>
 
 				<a href="http://stackoverflow.com/users/7239084/ariel-costa" target="_blank"><img src="assets/images/stackoverflow_icon.png" alt="Stack Overflow Icon" style="width: 50px; height: 50px;"></a>
+		</div>	
 			<div class="push"></div>
 		</div>
 		<div class="footer">
-			<p> (c) Copyright 2017 Ariel Costa</p>
+			<p class="copyright"> (c) Copyright 2017 Ariel Costa</p>
 		</div>
 	</body>
 

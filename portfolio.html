@@ -8,47 +8,64 @@
 
 	<body>
 		<!-- wrapper over page content, footer div to use css to make it stick-->
-		<div class="wrapper">
-			<h1>Ariel M Costa</h1>
-			<!-- links to other pages here ??-->
-			<a href="index.html">About</a> | 
-			<a href="portfolio.html">Portfolio</a> | 
-			<a href="contact.html">Contact</a>
-			<hr>
+		<div class="content">
+			<!--header-->
+			<header>
+				<div class="topbar">
+					<div class="name">
+						<h1>Ariel M Costa</h1>
+					</div> <!--end name div-->
+					<div class="links">
+						<ul>
+							<li><a href="index.html">About</a></li>
+							<li>   |   </li>
+							<li><a href="portfolio.html">Portfolio</a></li>
+							<li>   |   </li>
+							<li><a href="contact.html">Contact</a></li>
+						</ul>
+					</div> <!--end links div-->
+				</div> <!--end topbar div-->
+			</header>
 
+
+			<div class="container">
 			<h2>Portfolio</h2>
 			<hr>
 
 			<!-- should this be a <div>? -->
 			<!-- need placeholder links to direct to "projects" -->
 			<!-- how to make the text banners float over images ?!? -->
-			<!-- should image sizes happen here in html or in css? what is best practice? -->
-			<div class="foliolinks">
-				<a href="https://www.google.com"> <img src="assets/images/placeholder1.jpeg" alt="placeholder picture" style="width: 200px; height: 150px;"></a>
-					<p>Project 1</p>
-			</div>
-			<div class="foliolinks">
-				<a href="https://www.google.com"> <img src="assets/images/placeholder2.jpeg" alt="placeholder picture" style="width: 200px; height: 150px;"></a>
-					<p>Project 2</p>
-			</div>
-			<div class="foliolinks">
-				<a href="https://www.google.com"> <img src="assets/images/placeholder3.jpeg" alt="placeholder picture" style="width: 200px; height: 150px;"></a>
-					<p>Project 3</p>
-			</div>
-			<div class="foliolinks">
-				<a href="https://www.google.com"> <img src="assets/images/placeholder4.jpeg" alt="placeholder picture" style="width: 200px; height: 150px;"></a>
-					<p>Project 4</p>
-			</div>
-			<div class="foliolinks">
-				<a href="https://www.google.com"> <img src="assets/images/placeholder5.jpeg" alt="placeholder picture" style="width: 200px; height: 150px;"></a>
-					<p>Project 5</p>
-			</div>
-			<div class="foliolinks">
-				<a href="https://www.google.com"> <img src="assets/images/placeholder6.jpeg" alt="placeholder picture" style="width: 200px; height: 150px;"></a>
-					<p>Project 6</p>
-			</div>
+			
+				<div class="foliolinks">
+					<a href="https://www.google.com"> <img src="assets/images/placeholder1.jpeg" alt="placeholder picture" style="width: 200px; height: 150px;"></a>
+						<p>Project 1</p>
+				</div>
+				<div class="foliolinks">
+					<a href="https://www.google.com"> <img src="assets/images/placeholder2.jpeg" alt="placeholder picture" style="width: 200px; height: 150px;"></a>
+						<p>Project 2</p>
+				</div>
+				<div class="foliolinks">
+					<a href="https://www.google.com"> <img src="assets/images/placeholder3.jpeg" alt="placeholder picture" style="width: 200px; height: 150px;"></a>
+						<p>Project 3</p>
+				</div>
+				<div class="foliolinks">
+					<a href="https://www.google.com"> <img src="assets/images/placeholder4.jpeg" alt="placeholder picture" style="width: 200px; height: 150px;"></a>
+						<p>Project 4</p>
+				</div>
+				<div class="foliolinks">
+					<a href="https://www.google.com"> <img src="assets/images/placeholder5.jpeg" alt="placeholder picture" style="width: 200px; height: 150px;"></a>
+						<p>Project 5</p>
+				</div>
+				<div class="foliolinks">
+					<a href="https://www.google.com"> <img src="assets/images/placeholder6.jpeg" alt="placeholder picture" style="width: 200px; height: 150px;"></a>
+						<p>Project 6</p>
+				</div> <!--end foliolinks div-->
+			</div> <!--end container div-->
 
-			<h4>Connect with Me</h4>
+
+
+			<div class="connect">
+			<h3>Connect with Me</h3>
 			<hr>
 
 				<a href="https://www.linkedin.com/in/arielmcosta" target="_blank"><img src="assets/images/linkedin_icon.png" alt="LinkedIn Icon" style="width: 50px; height: 50px;"></a>
@@ -56,11 +73,12 @@
 				<a href="https://github.com/amcosta9" target="_blank"><img src="assets/images/github_icon.png" alt="Github Icon" style="width: 50px; height: 50px;"></a>
 
 				<a href="http://stackoverflow.com/users/7239084/ariel-costa" target="_blank"><img src="assets/images/stackoverflow_icon.png" alt="Stack Overflow Icon" style="width: 50px; height: 50px;"></a>
+			</div>
 			<div class="push"></div>
 		</div>
 		<!-- sticky footer not working - fix this! -->
 		<div class="footer">
-			<p> (c) Copyright 2017 Ariel Costa</p>
+			<p class="copyright"> (c) Copyright 2017 Ariel Costa</p>
 		</div>
 	</body>
 </html>
