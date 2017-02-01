@@ -1,5 +1,4 @@
 /*header and topbar css*/
-/*header doesn't stretch width of the page, tried 100% and 960px, not sure what is wrong*/
 h1 {
 	color: #ffffff;
 	font-family: "Georgia", Times, "Times New Roman", serif;
@@ -14,7 +13,7 @@ body {
 	border-color: #dddddd;
 }
 
-/*something to do with these two elements' width causing header not to stretch*/
+
 header {
 	background-color: #ffffff;
 	border-bottom-color: #cccccc;
