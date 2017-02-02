@@ -3,6 +3,7 @@ h1 {
 	color: #ffffff;
 	font-family: "Georgia", Times, "Times New Roman", serif;
 	background-color: #4aaaa5;
+	transition: color 2s;
 }
 
 body {
@@ -67,6 +68,7 @@ a {
 
 a:link {
 	color: #cccccc;
+	transition: color 1s, background-color 1s;
 }
 
 a:visited {
@@ -77,6 +79,11 @@ a:visited {
 .links a:hover {
 	color: #ffffff;
 	background-color: #4aaaa5;
+}
+
+/*hover change only for h1*/
+h1:hover {
+	color: #7f7f7f;
 }
 
 a:hover {
@@ -141,8 +148,7 @@ h2, h3 {
 /*connect with me section*/
 /*is there a way to center images in a div?*/
 .connect {
-	margin-top: 30px;
-	margin-left: 60px;
+	margin: 30px 0px 30px 60px;
 	width: 34%;
 	float: left;
 	background-color: #ffffff;
@@ -159,10 +165,18 @@ h2, h3 {
 	height: 50px;
 }
 
+
+input:hover {
+	color: #ffffff;
+	font-weight: bold;
+	background-color: #4aaaa5;
+}
+
 /*contact me form*/
 input, textarea {
 	font-family: "Arial", "Helvetica Neue", Helvetica, sans-serif;
 	color: #4aaaa5;
+	transition: color 1s, background-color 1s;
 }
 
 textarea {
