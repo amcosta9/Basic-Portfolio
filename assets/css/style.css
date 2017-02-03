@@ -1,7 +1,7 @@
 /*header and topbar css*/
 h1 {
 	color: #ffffff;
-	font-family: "Georgia", Times, "Times New Roman", serif;
+	font-family: 'Trirong', serif;
 	background-color: #4aaaa5;
 	transition: color 2s;
 }
@@ -10,7 +10,7 @@ body {
 	background: url(../images/background.png);
 	color: #777777;
 	background-color: #ffffff;
-	font-family: "Arial", "Helvetica Neue", Helvetica, sans-serif;
+	font-family: 'Pontano Sans', sans-serif;
 	border-color: #dddddd;
 }
 
@@ -64,11 +64,12 @@ li {
 
 a {
 	text-decoration: none;
+	transition: background-color 1s;
 }
 
 a:link {
 	color: #cccccc;
-	transition: color 1s, background-color 1s;
+	
 }
 
 a:visited {
@@ -98,7 +99,7 @@ a:active {
 
 h2, h3 {
 	color: #4aaaa5;
-	font-family: "Georgia", Times, "Times New Roman", serif;
+	font-family: 'Trirong', serif;
 }
 
 /*profile picture*/
@@ -124,7 +125,7 @@ h2, h3 {
 
 /*portfolio project name*/
 .project {
-	font-family: "Georgia", Times, "Times New Roman", serif;
+	font-family: 'Trirong', serif;
 	background-color: #4aaaa5;
 	color: #ffffff;
 	text-align: center;
@@ -174,7 +175,7 @@ input:hover {
 
 /*contact me form*/
 input, textarea {
-	font-family: "Arial", "Helvetica Neue", Helvetica, sans-serif;
+	font-family: 'Pontano Sans', sans-serif;
 	color: #4aaaa5;
 	transition: color 1s, background-color 1s;
 }
