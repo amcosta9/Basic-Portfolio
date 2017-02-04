@@ -45,9 +45,10 @@ header {
 /*navbar links*/
 .links {
 	position: relative;
-	bottom: 44px;
-	left: 575px;
-	width: 358px;
+	float: left;
+	top: 32%;
+	left: 40%;
+	width: 36%;
 }
 
 /*navbar links*/
@@ -64,7 +65,7 @@ li {
 
 a {
 	text-decoration: none;
-	transition: background-color 1s;
+	transition: background-color 1s ease;
 }
 
 a:link {
@@ -85,6 +86,14 @@ a:visited {
 /*hover change only for h1*/
 h1:hover {
 	color: #7f7f7f;
+}
+
+.thumbnail:hover {
+	opacity: 0.5;
+}
+
+.foliolinks:hover {
+	opacity: 0.5;
 }
 
 a:hover {
@@ -219,15 +228,12 @@ html, body {
 	border-top-style: solid;
 	border-top-width: 7px; 
 	clear: both;
+	height: 80px;
 }
 
 .copyright {
 	padding-top: 30px;
 	font-size: .75em;
-}
-
-.footer, .push {
-	height: 80px;
 }
 
 
